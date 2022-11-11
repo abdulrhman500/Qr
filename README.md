@@ -5,12 +5,7 @@ Generates QR-code images from excel sheet and adds QR-code image link to the exc
 git clone https://github.com/abdulrhman500/Qr-Genrator.git
 python -m venv .venv
 .venv\Scripts\activate
-pip install pandas
-pip install openpyxl
-pip install xlsxwriter
-pip install qrcode
-pip install pillow
-pip install faker
+pip install -r "requirements .txt"  
 ```
 
 Created By: 
